@@ -8,12 +8,11 @@ use App\Http\Controllers\Controller;
 class TestController extends Controller
 {
 
-public function index()
-{
-	return "This is index of Test";
+	public function index()
+	{
+		dd('This is New Index of TestController');
 
+	}
 
 }
-
-{
 	
