@@ -19,10 +19,5 @@ class TestController extends Controller
 		dd('This is Create');
 	}
 
-	public function someNewFunction($value='')
-	{
-		dd($value);
-	}
-
 }
 	
