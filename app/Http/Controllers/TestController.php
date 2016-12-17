@@ -19,5 +19,10 @@ class TestController extends Controller
 		dd('This is Create');
 	}
 
+	public function newSuchayFunction($value='')
+	{
+		dd('This is DD');
+	}
+
 }
 	
