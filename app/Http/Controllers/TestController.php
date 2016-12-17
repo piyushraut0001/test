@@ -24,5 +24,10 @@ class TestController extends Controller
 		dd($value);
 	}
 
+	public function newSuchayFunction($value='')
+	{
+		dd('This is DD');
+	}
+
 }
 	
