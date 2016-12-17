@@ -25,4 +25,7 @@ class TestController extends Controller
 	}
 
 }
-	
+public function create()
+{
+	dd('This is Text');
+}
