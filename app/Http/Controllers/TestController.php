@@ -14,5 +14,15 @@ class TestController extends Controller
 
 	}
 
+	public function create()
+	{
+		dd('This is Create');
+	}
+
+	public function someNewFunction($value='')
+	{
+		dd($value);
+	}
+
 }
 	
