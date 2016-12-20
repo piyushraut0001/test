@@ -29,5 +29,10 @@ class TestController extends Controller
 		dd('This is DD');
 	}
 
+	public function someMethodInNewAdded()
+	{
+		dd('This is MethodInNewAdded');
+	}
+
 }
 	
