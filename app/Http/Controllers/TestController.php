@@ -21,11 +21,14 @@ class TestController extends Controller
 
 	public function newSuchayFunction($value='')
 	{
-		dd('This is DD');
+		dd('This is Suchay DD');
 	}
 
-}
-public function create()
-{
-	dd('This is Text');
+	public function newPiyushFunction($value='')
+	{
+		
+		dd('This is Piyush DD');
+	}
+
+
 }
