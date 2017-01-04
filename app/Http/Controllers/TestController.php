@@ -31,11 +31,6 @@ class TestController extends Controller
 
 	}
 
-	public function newSuchayFunction($value='')
-    {
-    	dd('This is Suchay');
-    }
-
 }
 
 
