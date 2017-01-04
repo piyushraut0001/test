@@ -30,9 +30,10 @@ class TestController extends Controller
 		dd('This is Piyush DD');
 
 	}
-
+     
+    public function newTechkaps($value='') 
+    {
+    	dd('This is Techkaps');
+    }
 }
-
-
-	
 
