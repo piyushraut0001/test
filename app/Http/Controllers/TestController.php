@@ -28,8 +28,13 @@ class TestController extends Controller
 	{
 		
 		dd('This is Piyush DD');
+
 	}
 
+	public function newSuchayFunction($value='')
+    {
+    	dd('This is Suchay');
+    }
 
 }
 
