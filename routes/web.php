@@ -19,3 +19,14 @@ Route::get('/test', 'TestController@index')->name('test');
 Route::get('/piyush', 'TestController@newPiyushFunction')->name('suchay');
 Route::get('/piyush', 'TestController@newPiyushFunction')->name('suchay');
 Route::get('/piyush', 'TestController@newTechkaps')->name('suchay');
+
+Route::get('/about', function () {
+	return view('test');
+});
+
+Route::get('/about', function() {
+    $people = ['Amit, Sumit']; 
+
+    return view('test', compact('people'));
+
+});
