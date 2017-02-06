@@ -86,7 +86,6 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <a href="{{ url('/piyush') }}">suchay</a>
                     <a href="{{ route( 'suchay' ) }}">piyush</a>
-                    <a href="{{ route( 'suchay' ) }}">techkaps</a>
                 </div>
             </div>
         </div>
